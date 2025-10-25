@@ -51,7 +51,7 @@ function verDetalleProducto(nombre, descripcion, imagen, precio) {
 
 
 function getProductPage(id, nombre) {
-  window.location.href = `/producto.html/#/${id}`
+  window.location.href = `/producto.html#/${id}`
 }
 
 // Read from Json

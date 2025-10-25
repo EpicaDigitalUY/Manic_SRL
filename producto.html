@@ -75,24 +75,35 @@
         </div>
     </footer>
     <script>
+        // Obtener el ID del producto desde la URL (#id)
+        const hash = window.location.hash.replace(/^#\/?/, ''); // elimina "#" o "#/"
 
-        const hash = window.location.hash;
-        hash.replace(/^#\//, '');
         fetch('/json/data.json')
-            .then(response => response.json)
+            .then(response => response.json())
             .then(data => {
-                const producto = data.find((p) => p.id == hash[0]);
+                const producto = data.find(p => p.id == hash);
+
                 if (producto) {
                     document.getElementById('imagenProducto').src = producto.imagen;
                     document.getElementById('nombreProducto').textContent = producto.nombre;
                     document.getElementById('descripcionProducto').textContent = producto.descripcion;
                     document.getElementById('precioProducto').textContent = producto.precio;
                 } else {
-                    document.querySelector('.detalle-container').innerHTML = "<p>No se encontró el producto.</p><a href='index.html' class='volver'>Volver</a>";
+                    document.querySelector('.detalle-container').innerHTML = `
+                        <p>No se encontró el producto.</p>
+                        <a href="index.html#catalogo" class="volver">Volver</a>
+                    `;
                 }
             })
-        
+            .catch(error => {
+                console.error('Error al cargar los datos:', error);
+                document.querySelector('.detalle-container').innerHTML = `
+                    <p>Error al cargar los datos del producto.</p>
+                    <a href="index.html#catalogo" class="volver">Volver</a>
+                `;
+            });
     </script>
+
 </body>
 
 </html>
