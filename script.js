@@ -54,27 +54,63 @@ function getProductPage(id, nombre) {
   window.location.href = `/producto.html#/${id}`
 }
 
+
+
 // Read from Json
 const prodContainer = document.getElementById('productos');
+const paginationContainer = document.getElementById('pagination'); // un div para los botones de página
+const ITEMS_PER_PAGE = 30;
+
 fetch('/json/data.json')
   .then(response => response.json())
   .then(data => {
     if (data.length === 0) {
-      prodContainer.innerHTML = "No hay productos en la tienda"
-} else {
-      data.forEach(prod => {
+      prodContainer.innerHTML = "No hay productos en la tienda";
+      return;
+    }
+
+    let currentPage = 1;
+    const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE);
+
+    function renderPage(page) {
+      prodContainer.innerHTML = ""; // limpiar productos
+      const start = (page - 1) * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
+      const pageItems = data.slice(start, end);
+
+      pageItems.forEach(prod => {
         const div = document.createElement('div');
         div.classList.add('producto');
-        div.setAttribute('data-tipo', `${prod.tipo}`);
+        div.setAttribute('data-tipo', prod.tipo);
         div.innerHTML = `
           <img src="${prod.imagen}" alt="${prod.nombre}">
-            <h3>${prod.nombre}</h3>
-        `
-
-        prodContainer.append(div)
-
-        div.addEventListener('click', () => getProductPage(prod.id))
+          <h3>${prod.nombre}</h3>
+        `;
+        div.addEventListener('click', () => getProductPage(prod.id));
+        prodContainer.append(div);
       });
+
+      renderPagination();
     }
-    
+
+    function renderPagination() {
+      paginationContainer.innerHTML = "";
+
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement('button');
+        btn.textContent = i;
+        if (i === currentPage) btn.disabled = true;
+
+        btn.addEventListener('click', () => {
+          currentPage = i;
+          renderPage(currentPage);
+          window.location.href = '#catalogo'
+        });
+
+        paginationContainer.append(btn);
+      }
+    }
+
+    // Render inicial
+    renderPage(currentPage);
   });

@@ -671,6 +671,24 @@ a {
     text-decoration: underline;
 }
 
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    & button {
+        width: 2rem;
+        height: 2rem;
+        transition: 150ms;
+        &:disabled {
+            box-shadow: 0 5px #cc3636;
+            background-color: #111;
+            color: #fafafa;
+            border: none;
+        }
+    }
+}
 /* Vista en pantallas grandes */
 @media (min-width: 768px) {
     .detalle-container {
