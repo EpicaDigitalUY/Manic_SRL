@@ -25,16 +25,22 @@ a {
     font-weight: 700;
 }
 
+img {
+    pointer-events: none;
+}
+
 /* === NAVBAR === */
 nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 12px 30px;
-    background-color: #cc3636;
+    padding: 0 50px;
+    background-color: #ffffffa2;
+    backdrop-filter: blur(8px);
     color: #fff;
     display: flex;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
@@ -49,13 +55,19 @@ nav .logo {
     transition: all 0.25s ease;
 }
 
+nav .logo img {
+    height: 70px;
+    object-fit: cover;
+    width: 100px;
+}
+
 nav .logo:hover {
-    transform: scale(1.11);
-    text-shadow: 0 3px 8px #111;
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 7px #0000006d);
 }
 
 nav .logo a {
-    color: #fff;
+    color: #d40000;
     text-decoration: none;
 }
 
@@ -73,7 +85,8 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #d40000;
+    font-size: 18px;
     transition: all 0.25s ease;
     text-decoration: none;
 }
@@ -88,12 +101,19 @@ nav ul li a:hover {
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hamburger:hover {
+    transform: scale(1.1);
 }
 
 .hamburger span {
-    width: 25px;
-    height: 3px;
-    background: #fff;
+    width: 35px;
+    height: 6px;
+    margin-bottom: 2px;
+    border: solid 1px #000;
+    background: #d40000;
     border-radius: 2px;
     transition: all 0.3s ease;
 }
@@ -102,7 +122,7 @@ nav ul li a:hover {
 .slider {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 90vh;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 0;
@@ -176,7 +196,16 @@ nav ul li a:hover {
 /* === INICIO === */
 .inicio {
     background-color: #fff;
-    padding: 70px 100px;
+    padding: 70px 200px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.inicio .hero {
+    width: 450px;
+    transition: all 0.3s ease;
+    pointer-events: none;
 }
 
 .inicio h2 {
@@ -187,6 +216,13 @@ nav ul li a:hover {
 
 .inicio p {
     line-height: 30px;
+}
+
+h2 {
+    color: #f44336;
+    margin: 50px 0;
+    font-size: 35px;
+    text-align: center;
 }
 
 /* === FILTROS === */
@@ -200,10 +236,10 @@ nav ul li a:hover {
 
 .filtros button {
     padding: 10px 20px;
-    border: 1px solid #f44336;
+    border: 2px solid #506ffe;
     background: #fff;
-    color: #f44336;
-    border-radius: 5px;
+    color: #506ffe;
+    border-radius: 50px;
     font-weight: 500;
     cursor: pointer;
     font-size: 20px;
@@ -211,8 +247,9 @@ nav ul li a:hover {
 }
 
 .filtros button:hover {
-    background: #f44336;
+    background: #506ffe;
     color: white;
+    padding: 10px 30px;
 }
 
 /* === PRODUCTOS === */
@@ -279,7 +316,7 @@ nav ul li a:hover {
 /* == SOBRE NOSOTROS == */
 .nosotros {
     background-color: #fff;
-    padding: 70px 100px;
+    padding: 70px 200px;
 }
 
 .nosotros h2 {
@@ -511,6 +548,14 @@ nav ul li a:hover {
         padding: 50px 40px;
     }
 
+    .inicio {
+        flex-direction: column;
+    }
+
+    .inicio .hero {
+        width: 300px;
+    }
+
     .slider {
         height: 300px;
     }
@@ -521,6 +566,10 @@ nav ul li a:hover {
 
     .footer-column h3 {
         font-size: 1em;
+    }
+
+    .filtros button:hover {
+        padding: 0px 14px;
     }
 }
 
@@ -533,7 +582,7 @@ nav ul li a:hover {
         top: 60px;
         right: 30px;
         width: 200px;
-        background: #cc3636;
+        background: #f2f2f2;
         border-radius: 8px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
         padding: 10px 0;
@@ -586,6 +635,10 @@ nav ul li a:hover {
         width: 45%;
     }
 
+    .producto h3 {
+        font-size: 14px;
+    }
+
     .footer-container {
         grid-template-columns: 1fr 1fr;
     }
@@ -595,6 +648,7 @@ nav ul li a:hover {
 @media (max-width: 480px) {
     .slider {
         height: 200px;
+        margin-top: 100px;
     }
 
     .overlay h1 {
@@ -648,7 +702,8 @@ nav ul li a:hover {
     gap: 1rem;
 }
 
-.volver, #info{
+.volver,
+#info {
     display: inline-block;
     margin-top: .5remrem;
     padding: 0.5rem 1rem;
@@ -677,10 +732,12 @@ a {
     justify-content: center;
     align-items: center;
     gap: 4px;
+
     & button {
         width: 2rem;
         height: 2rem;
         transition: 150ms;
+
         &:disabled {
             box-shadow: 0 5px #cc3636;
             background-color: #111;
@@ -689,6 +746,7 @@ a {
         }
     }
 }
+
 /* Vista en pantallas grandes */
 @media (min-width: 768px) {
     .detalle-container {
