@@ -1,212 +1,212 @@
 [
   {
-    "id" : 1,
+    "id": 1,
     "nombre": "Pack x10 Bolsas de Residuos (60 x 75)",
     "descripcion": "Resistentes, amplias y prácticas, ideales para contener grandes volúmenes de residuos.",
-    "imagen": "assets/img/products/bolsas/bolsa_residuos_grandes.jpg",
+    "imagen": "assets/img/products/bolsas/bolsa_residuos_grandes.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 2,
+    "id": 2,
     "nombre": "Pack x10 Bolsas de Residuos Para Jardín (70 x 110)",
     "descripcion": "Diseñadas para desechos de jardín, son extra grandes y reforzadas para ramas, pasto y hojas.",
-    "imagen": "assets/img/products/bolsas/bolsa_residuos_jardin.jpg",
+    "imagen": "assets/img/products/bolsas/bolsa_residuos_jardin.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 3,
+    "id": 3,
     "nombre": "Pack x30 Bolsas de Residuos (48 x 55)",
     "descripcion": "Tamaño compacto y práctico, ideal para tachos pequeños en cocina, baño u oficina.",
-    "imagen": "assets/img/products/bolsas/bolsa_residuos.jpg",
+    "imagen": "assets/img/products/bolsas/bolsa_residuos.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 4,
+    "id": 4,
     "nombre": "Pack Bolsas de Vacío tamaño Jumbo",
     "descripcion": "Ideales para almacenar prendas, acolchados o abrigos grandes, ahorrando espacio y protegiendo del polvo y la humedad.",
-    "imagen": "assets/img/products/bolsas/bolsa_vacio_jumbo.jpg",
+    "imagen": "assets/img/products/bolsas/bolsa_vacio_jumbo.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 5,
+    "id": 5,
     "nombre": "Pack Bolsas de Vacío Grande",
     "descripcion": "Perfectas para guardar ropa de temporada y optimizar espacio en placares, protegiendo contra humedad, polvo y ácaros.",
-    "imagen": "assets/img/products/bolsas/bolsa_vacio_L.jpg",
+    "imagen": "assets/img/products/bolsas/bolsa_vacio_L.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 6,
+    "id": 6,
     "nombre": "Pack Bolsas de Vacío Mediana",
     "descripcion": "Prácticas y versátiles, ideales para organizar prendas, toallas o sábanas mientras ahorrás espacio y las mantenés protegidas.",
-    "imagen": "assets/img/products/bolsas/bolsa_vacio_M.jpg",
+    "imagen": "assets/img/products/bolsas/bolsa_vacio_M.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 7,
+    "id": 7,
     "nombre": "Pack Bolsas de Vacío tamaño Extra Grande",
     "descripcion": "Extra espacio para guardar acolchados, frazadas o ropa voluminosa, con máxima compresión y protección garantizada.",
-    "imagen": "assets/img/products/bolsas/bolsa_vacio_XL.jpg",
+    "imagen": "assets/img/products/bolsas/bolsa_vacio_XL.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 8,
+    "id": 8,
     "nombre": "Bolsas de Nylon varios tamaños",
     "descripcion": "Versátiles y resistentes, ideales para almacenamiento, organización o traslado de objetos en distintos tamaños.",
-    "imagen": "assets/img/products/bolsas/bolsas_nylon.jpg",
+    "imagen": "assets/img/products/bolsas/bolsas_nylon.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 9,
+    "id": 9,
     "nombre": "Bolsas de Papel para Regalos varios tamaños",
     "descripcion": "Elegantes y ecológicas, perfectas para presentar tus regalos con estilo en cualquier ocasión.",
-    "imagen": "assets/img/products/bolsas/bolsas_papel_regalo.jpg",
+    "imagen": "assets/img/products/bolsas/bolsas_papel_regalo.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 10,
+    "id": 10,
     "nombre": "Bolsas de Papel comunes varios tamaños",
     "descripcion": "Sencillas y funcionales, ideales para envolver productos, transportar objetos o usar en el día a día.",
-    "imagen": "assets/img/products/bolsas/bolsas_papel.jpg",
+    "imagen": "assets/img/products/bolsas/bolsas_papel.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 11,
+    "id": 11,
     "nombre": "Bolsas para Viveros",
     "descripcion": "Resistentes y prácticas, diseñadas especialmente para el cultivo y traslado de plantas en viveros y huertas.",
-    "imagen": "assets/img/products/bolsas/bolsas_vivero.jpg",
+    "imagen": "assets/img/products/bolsas/bolsas_vivero.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 12,
+    "id": 12,
     "nombre": "Pack de Bolsas para Residuos de Mascotas (x6 rollos)",
     "descripcion": "Fáciles de usar y resistentes, perfectas para recoger y desechar los residuos de tus mascotas de forma higiénica y cómoda.",
-    "imagen": "assets/img/products/bolsas/pack_bolsa_residuos_mascotas.jpg",
+    "imagen": "assets/img/products/bolsas/pack_bolsa_residuos_mascotas.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 13,
+    "id": 13,
     "nombre": "Pack x15 Bolsas Herméticas Grandes",
     "descripcion": "Sellan al vacío para conservar frescura y evitar derrames, ideales para almacenar alimentos o productos grandes.",
-    "imagen": "assets/img/products/bolsas/pack_bolsas_hermeticas_L.jpg",
+    "imagen": "assets/img/products/bolsas/pack_bolsas_hermeticas_L.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 14,
+    "id": 14,
     "nombre": "Pack x50 Bolsas Herméticas Pequeñas",
     "descripcion": "Perfectas para conservar y organizar alimentos pequeños, manteniendo su frescura y evitando olores.",
-    "imagen": "assets/img/products/bolsas/pack_bolsas_hermeticas_M.jpg",
+    "imagen": "assets/img/products/bolsas/pack_bolsas_hermeticas_M.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 15,
+    "id": 15,
     "nombre": "Pack x50 Bolsas Herméticas Medianas",
     "descripcion": "Ideales para almacenar snacks, porciones individuales o artículos pequeños, con cierre seguro y reutilizable.",
-    "imagen": "assets/img/products/bolsas/pack_bolsas_hermeticas_S.jpg",
+    "imagen": "assets/img/products/bolsas/pack_bolsas_hermeticas_S.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 16,
+    "id": 16,
     "nombre": "Pack x10 Bolsas Herméticas Extra Grandes",
     "descripcion": "Espaciosas y resistentes, perfectas para guardar alimentos a granel, objetos grandes o conservar por más tiempo.",
-    "imagen": "assets/img/products/bolsas/pack_bolsas_hermeticas_XL.jpg",
+    "imagen": "assets/img/products/bolsas/pack_bolsas_hermeticas_XL.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 17,
+    "id": 17,
     "nombre": "Pack Rollo x30 Bolsas para Resiudos chicas",
     "descripcion": "Prácticas y compactas, ideales para tachos pequeños, con fácil desprendimiento y resistencia asegurada.",
-    "imagen": "assets/img/products/bolsas/rollo_bolsa_chico.jpg",
+    "imagen": "assets/img/products/bolsas/rollo_bolsa_chico.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 18,
+    "id": 18,
     "nombre": "Pack Rollo x10 Bolsas para Resiudos grandes",
     "descripcion": "Reforzadas y de gran capacidad, perfectas para residuos voluminosos en uso doméstico o comercial.",
-    "imagen": "assets/img/products/bolsas/rollo_bolsa_grande.jpg",
+    "imagen": "assets/img/products/bolsas/rollo_bolsa_grande.webp",
     "tipo": "bolsas"
   },
   {
-    "id" : 19,
+    "id": 19,
     "nombre": "Abrelatas Uña BERTA",
     "descripcion": "Clásico, resistente y fácil de usar, ideal para abrir latas con precisión y sin esfuerzo.",
-    "imagen": "assets/img/products/cocina/abrelatas_uña.jpg",
+    "imagen": "assets/img/products/cocina/abrelatas_uña.webp",
     "tipo": "cocina"
   },
   {
-    "id" : 20,
+    "id": 20,
     "nombre": "Batidor de Mano",
     "descripcion": "Ligero y práctico, ideal para mezclar ingredientes de forma rápida en preparaciones dulces o saladas.",
-    "imagen": "assets/img/products/cocina/batidor_2.jpg",
+    "imagen": "assets/img/products/cocina/batidor_2.webp",
     "tipo": "cocina"
   },
   {
     "id": 21,
     "nombre": "Colador de Mano (Metal)",
     "descripcion": "Resistente y duradero, perfecto para colar líquidos o tamizar ingredientes con comodidad y precisión.",
-    "imagen": "assets/img/products/cocina/colador_metal_1.jpg",
+    "imagen": "assets/img/products/cocina/colador_metal_1.webp",
     "tipo": "cocina"
   },
   {
     "id": 22,
     "nombre": "Colador de Mano (Plástico)",
     "descripcion": "Liviano y funcional, ideal para uso diario en cocina, fácil de lavar y manejar.",
-    "imagen": "assets/img/products/cocina/colador_plastico.jpg",
+    "imagen": "assets/img/products/cocina/colador_plastico.webp",
     "tipo": "cocina"
   },
   {
-    "id":23,
+    "id": 23,
     "nombre": "Dips Cuadradas",
     "descripcion": "Modernas y elegantes, perfectas para postres, aperitivos o presentaciones especiales en eventos y reuniones.",
-    "imagen": "assets/img/products/cocina/copas_cuadradas.jpg",
+    "imagen": "assets/img/products/cocina/copas_cuadradas.webp",
     "tipo": "cocina"
   },
   {
-    "id":24,
+    "id": 24,
     "nombre": "Cucharas Medidoras",
     "descripcion": "Precisas y prácticas, ideales para medir ingredientes secos o líquidos en recetas de cocina y repostería.",
-    "imagen": "assets/img/products/cocina/Cucharas_Medidoras.jpg",
+    "imagen": "assets/img/products/cocina/Cucharas_Medidoras.webp",
     "tipo": "cocina"
   },
   {
-    "id":25,
+    "id": 25,
     "nombre": "Forro de papel para freidora de aire (Pack x25)",
     "descripcion": "Evita suciedad y facilita la limpieza, resistente al calor y perfecto para cocinar sin complicaciones en tu freidora de aire.",
-    "imagen": "assets/img/products/cocina/forro_papel_freidora_aire_1.jpg",
+    "imagen": "assets/img/products/cocina/forro_papel_freidora_aire_1.webp",
     "tipo": "cocina"
   },
   {
-    "id":26,
+    "id": 26,
     "nombre": "Forro de papel para freidora de aire (Pack x25)",
     "descripcion": "Evita suciedad y facilita la limpieza, resistente al calor y perfecto para cocinar sin complicaciones en tu freidora de aire.",
-    "imagen": "assets/img/products/cocina/forro_papel_freidora_aire_2.jpg",
+    "imagen": "assets/img/products/cocina/forro_papel_freidora_aire_2.webp",
     "tipo": "cocina"
   },
   {
     "id": 27,
     "nombre": "Forro de silicona para freidora de aire (Pack x25)",
     "descripcion": "Reutilizable, antiadherente y resistente al calor, ideal para cocinar de forma más limpia y saludable en tu freidora de aire.",
-    "imagen": "assets/img/products/cocina/forro_silicona_freidora_aire.jpg",
+    "imagen": "assets/img/products/cocina/forro_silicona_freidora_aire.webp",
     "tipo": "cocina"
   },
   {
     "id": 28,
     "nombre": "Guante de silicona para horno",
     "descripcion": "Flexible y resistente al calor, protege tus manos al manipular bandejas, ollas o moldes calientes con total seguridad.",
-    "imagen": "assets/img/products/cocina/guante_cocina.jpg",
+    "imagen": "assets/img/products/cocina/guante_cocina.webp",
     "tipo": "cocina"
   },
   {
     "id": 29,
     "nombre": "Jarra con exprimidor",
     "descripcion": "Práctica y funcional, permite exprimir y servir jugos frescos fácilmente, todo en un solo recipiente.",
-    "imagen": "assets/img/products/cocina/jarra_con_exprimidor.jpg",
+    "imagen": "assets/img/products/cocina/jarra_con_exprimidor.webp",
     "tipo": "cocina"
   },
   {
     "id": 30,
     "nombre": "Martillo tiernizador de goma",
     "descripcion": "Ideal para ablandar carnes sin dañar las fibras, con superficie de goma que evita ruidos y protege tus utensilios.",
-    "imagen": "assets/img/products/cocina/martillo_tiernizador.jpg",
+    "imagen": "assets/img/products/cocina/martillo_tiernizador.webp",
     "tipo": "cocina"
   },
   {
@@ -214,249 +214,248 @@
     "tipo": "cocina",
     "nombre": "Escurridor de platos",
     "descripcion": "Organiza y seca tu vajilla con practicidad, diseño compacto y ranuras que facilitan el drenaje del agua.",
-    "imagen": "assets/img/products/cocina/mini_escurridor_platos.jpg"
+    "imagen": "assets/img/products/cocina/mini_escurridor_platos.webp"
   },
   {
     "id": 32,
     "tipo": "cocina",
     "nombre": "Ñoquera de mano",
     "descripcion": "Herramienta clásica y cómoda, ideal para dar forma a ñoquis caseros de manera rápida y pareja.",
-    "imagen": "assets/img/products/cocina/ñoquera.jpg"
+    "imagen": "assets/img/products/cocina/ñoquera.webp"
   },
   {
     "id": 33,
     "tipo": "cocina",
     "nombre": "Toallas de papel (Pack x3)",
     "descripcion": "Absorbentes y resistentes, ideales para limpieza diaria en cocina, baño o cualquier superficie del hogar.",
-    "imagen": "assets/img/products/cocina/pack_toallas_papel.jpg"
+    "imagen": "assets/img/products/cocina/pack_toallas_papel.webp"
   },
   {
     "id": 34,
     "tipo": "cocina",
     "nombre": "Picos para decorar tortas",
     "descripcion": "Precisos y versátiles, perfectos para crear detalles, formas y acabados profesionales en tus tortas y postres.",
-    "imagen": "assets/img/products/cocina/picos_tortas.jpg"
+    "imagen": "assets/img/products/cocina/picos_tortas.webp"
   },
   {
     "id": 35,
     "tipo": "cocina",
     "nombre": "Dips cuadrados",
     "descripcion": "Modernos y elegantes, ideales para presentar tus comidas con estilo en ocasiones especiales o uso diario.",
-    "imagen": "assets/img/products/cocina/platos_cuadrados.jpg"
+    "imagen": "assets/img/products/cocina/platos_cuadrados.webp"
   },
   {
     "id": 36,
     "tipo": "cocina",
     "nombre": "Pote hermético",
     "descripcion": "Seguro y duradero, perfecto para conservar alimentos frescos, transportar comidas o guardar ingredientes sin derrames.",
-    "imagen": "assets/img/products/cocina/pote_hermetico_1.jpg"
+    "imagen": "assets/img/products/cocina/pote_hermetico_1.webp"
   },
   {
     "id": 37,
     "tipo": "cocina",
     "nombre": "Pote hermético",
     "descripcion": "Seguro y duradero, perfecto para conservar alimentos frescos, transportar comidas o guardar ingredientes sin derrames.",
-    "imagen": "assets/img/products/cocina/pote_hermetico_2.jpg"
+    "imagen": "assets/img/products/cocina/pote_hermetico_2.webp"
   },
   {
     "id": 38,
     "tipo": "cocina",
     "nombre": "Pote hermético",
     "descripcion": "Seguro y duradero, perfecto para conservar alimentos frescos, transportar comidas o guardar ingredientes sin derrames.",
-    "imagen": "assets/img/products/cocina/pote_hermetico_3.jpg"
+    "imagen": "assets/img/products/cocina/pote_hermetico_3.webp"
   },
   {
     "id": 39,
     "tipo": "cocina",
     "nombre": "Provolonera de 19 espacios",
     "descripcion": "perfecta para cocinar múltiples porciones al mismo tiempo de forma práctica y pareja.",
-    "imagen": "assets/img/products/cocina/provolonera_1.jpg"
+    "imagen": "assets/img/products/cocina/provolonera_1.webp"
   },
   {
     "id": 40,
     "tipo": "cocina",
     "nombre": "Provolonera de 10 espacios",
     "descripcion": "ideal para preparar porciones individuales de queso de forma rápida, pareja y sin complicaciones.",
-    "imagen": "assets/img/products/cocina/provolonera_chica_1.jpg"
+    "imagen": "assets/img/products/cocina/provolonera_chica_1.webp"
   },
   {
     "id": 41,
     "tipo": "cocina",
     "nombre": "Rallador de mano",
     "descripcion": "Compacto y práctico, ideal para rallar quesos, verduras o cítricos con facilidad y precisión.",
-    "imagen": "assets/img/products/cocina/rallador.jpg"
+    "imagen": "assets/img/products/cocina/rallador.webp"
   },
   {
     "id": 42,
     "tipo": "cocina",
     "nombre": "Servilletero de metal",
     "descripcion": "Elegante y resistente, perfecto para mantener las servilletas organizadas y siempre al alcance en tu mesa.",
-    "imagen": "assets/img/products/cocina/servilletero.jpg"
+    "imagen": "assets/img/products/cocina/servilletero.webp"
   },
   {
     "id": 43,
     "tipo": "cocina",
     "nombre": "Set de corta galletitas",
     "descripcion": "Divertido y funcional, ideal para cortar masas con distintas formas y crear galletitas caseras únicas y creativas.",
-    "imagen": "assets/img/products/cocina/set_galletitas_1.jpg"
+    "imagen": "assets/img/products/cocina/set_galletitas_1.webp"
   },
   {
-    "id":44, 
+    "id": 44,
     "tipo": "cocina",
     "nombre": "Set de corta galletitas",
     "descripcion": "Divertido y funcional, ideal para cortar masas con distintas formas y crear galletitas caseras únicas y creativas.",
-    "imagen": "assets/img/products/cocina/set_galletitas_2.jpg"
-  }, 
+    "imagen": "assets/img/products/cocina/set_galletitas_2.webp"
+  },
   {
-    "id":45, 
-      "tipo": "cocina",
-      "nombre": "Soporte para latas",
-      "descripcion": "Práctico y compacto, ideal para organizar latas en la heladera o alacena, optimizando espacio y manteniendo todo ordenado.",
-      "imagen": "assets/img/products/cocina/soporte_latas.jpg"
-    },
-    {
-    "id":46, 
-      "tipo": "cocina",
-      "nombre": "Tapiz de microfibra",
-      "descripcion": "Suave y absorbente, ideal para secar vajilla, proteger superficies o usar como base antideslizante en la cocina.",
-      "imagen": "assets/img/products/cocina/tapiz_microfibra.jpg"
-    },
-    {
-        
-    "id":47, 
-      "tipo": "cocina",
-      "nombre": "Tapones para botellas",
-      "descripcion": "Útiles y reutilizables, mantienen tus bebidas frescas por más tiempo y evitan derrames en botellas abiertas.",
-      "imagen": "assets/img/products/cocina/tapon_botellas.jpg"
-    },
-    {
-    "id":48, 
-      "tipo": "cocina",
-      "nombre": "Tostador parrilla",
-      "descripcion": "Resistente y funcional, ideal para tostar pan o calentar alimentos directamente sobre la parrilla o brasas.",
-      "imagen": "assets/img/products/cocina/tostador_parrilla.jpg"
-    },
-    {
-    "id":49, 
-      "tipo": "cocina",
-      "nombre": "Pack de shot 25 vasos plásticos (1.5oz)",
-      "descripcion": "Pequeños y prácticos, ideales para shots, degustaciones o servir salsas y aderezos en reuniones y eventos.",
-      "imagen": "assets/img/products/cocina/vasos_1.5oz.jpg"
-    },
-    {
-    "id":50, 
-      "tipo": "cocina",
-      "nombre": "Pack de shot 12 vasos plásticos (3oz)",
-      "descripcion": "Compactos y versátiles, perfectos para shots, postres, degustaciones o porciones individuales de bebidas.",
-      "imagen": "assets/img/products/cocina/vasos_3oz.jpg"
-    },
-    {
-    "id":51, 
-      "tipo": "cocina",
-      "nombre": "Pack de shot 12 vasos plásticos (7oz)",
-      "descripcion": "Tamaño ideal para bebidas frías, jugos o refrescos, perfectos para reuniones, picnics o uso diario.",
-      "imagen": "assets/img/products/cocina/vasos_7oz.jpg"
-    },
-    {
-    "id":52, 
-      "tipo": "jardin",
-      "nombre": "Guantes de tela para jardín",
-      "descripcion": "Cómodos y resistentes, protegen tus manos mientras realizás tareas de jardinería, poda o trasplante.",
-      "imagen": "assets/img/products/jardin/guantes_jardin.jpg"
-    },
-    {
-        "id":53, 
-      "tipo": "jardin",
-      "nombre": "Maceta soplada de plástico (todas las medidas)",
-      "descripcion": "Ligeros y duraderos, ideales para semilleros, trasplantes o cultivo de pequeñas plantas y flores.",
-      "imagen": "assets/img/products/jardin/IMG_20250614_113433.jpg"
-    },
-    {
-      "id":54, 
-      "tipo": "jardin",
-      "nombre": "Maceta de jardín extra grande",
-      "descripcion": "Espaciosa y resistente, perfecta para plantas de gran tamaño, árboles jóvenes o composiciones decorativas en exteriores.",
-      "imagen": "assets/img/products/jardin/maceta_1.jpg"
-    },
-    {
-      "id":55,
-      "tipo": "jardin",
-      "nombre": "Maceta de jardín grande",
-      "descripcion": "Robusta y decorativa, ideal para arbustos, plantas medianas o arreglos florales en patios y balcones.",
-      "imagen": "assets/img/products/jardin/maceta_2.jpg"
-    },
-    {
-      "id":56,
-      "tipo": "jardin",
-      "nombre": "Maceta de jardín mediana",
-      "descripcion": "Versátil y funcional, perfecta para plantas de interior o exterior de tamaño medio, con buen drenaje y diseño práctico.",
-      "imagen": "assets/img/products/jardin/maceta_3.jpg"
-    },
-    {
-      "id":57,
-      "tipo": "jardin",
-      "nombre": "Maceta de jardín pequeña",
-      "descripcion": "Compacta y práctica, ideal para suculentas, hierbas aromáticas o plantas pequeñas en espacios reducidos.",
-      "imagen": "assets/img/products/jardin/maceta_4.jpg"
-    },
-    {
-      "id":58,
-      "tipo": "jardin",
-      "nombre": "Maceta de jardín pequeña (decorativa)",
-      "descripcion": "Estética y funcional, diseñada para realzar espacios pequeños con plantas decorativas y detalles encantadores.",
-      "imagen": "assets/img/products/jardin/maceta_5.jpg"
-    },
-    {
-      "id":59,
-      "tipo": "jardin",
-      "nombre": "Macetines de plástico (decorativos)",
-      "descripcion": "Coloridos y resistentes, perfectos para darle un toque decorativo y alegre a tus plantas y ambientes.",
-      "imagen": "assets/img/products/jardin/maceta_6.jpg"
-    },
-    {
-      "id":60,
-      "tipo": "jardin",
-      "nombre": "Maceta cuadrada mediana",
-      "descripcion": "De diseño moderno y práctico, ideal para plantas medianas, con buen drenaje y fácil ubicación en cualquier espacio.",
-      "imagen": "assets/img/products/jardin/maceta_cuadrada_1.jpg"
-    },
-    {
-      "id":61,
-      "tipo": "jardin",
-      "nombre": "Pala pequeña de jardinería",
-      "descripcion": "Compacta y resistente, perfecta para trasplantes, sembrar y trabajar en espacios reducidos del jardín.",
-      "imagen": "assets/img/products/jardin/pala_chica_1.jpg"
-    },
-    {
-      "id":62,
-      "tipo": "tuppers",
-      "nombre": "Tupper hermetico pequeño de plástico",
-      "descripcion": "Práctico y seguro, ideal para conservar alimentos frescos, transportar comidas o almacenar ingredientes sin derrames.",
-      "imagen_detalle": "assets/img/products/jardin/tupper_hermetico_1.jpg",
-      "imagen": "assets/img/products/Tuppers/tupper_hermetico_1.jpg"
-    },
-    {        
-      "id":63,
-      "tipo": "tuppers",
-      "nombre": "Tupper hermetico mediano hondo de plástico",
-      "descripcion": "Práctico y seguro, ideal para conservar alimentos frescos, transportar comidas o almacenar ingredientes sin derrames.",
-      "imagen_detalle": "assets/img/products/jardin/tupper_hermetico_1.jpg",
-      "imagen": "assets/img/products/Tuppers/tupper_hermetico_2.jpg"
-    },
-    {
-      "id":64,
-      "tipo": "tuppers",
-      "nombre": "Tupper hermetico mediano de plástico",
-      "descripcion": "Práctico y seguro, ideal para conservar alimentos frescos, transportar comidas o almacenar ingredientes sin derrames.",
-      "imagen_detalle": "assets/img/products/jardin/tupper_hermetico_3.jpg",
-      "imagen": "assets/img/products/Tuppers/tupper_hermetico_3.jpg"
-    },
-    {
-      "id":65,
-      "tipo": "tuppers",
-      "nombre": "Tupper hermetico grande de plástico",
-      "descripcion": "Práctico y seguro, ideal para conservar alimentos frescos, transportar comidas o almacenar ingredientes sin derrames.",
-      "imagen_detalle": "assets/img/products/jardin/tupper_hermetico_4.jpg",
-      "imagen": "assets/img/products/Tuppers/tupper_hermetico_4.jpg"
-    }
+    "id": 45,
+    "tipo": "cocina",
+    "nombre": "Soporte para latas",
+    "descripcion": "Práctico y compacto, ideal para organizar latas en la heladera o alacena, optimizando espacio y manteniendo todo ordenado.",
+    "imagen": "assets/img/products/cocina/soporte_latas.webp"
+  },
+  {
+    "id": 46,
+    "tipo": "cocina",
+    "nombre": "Tapiz de microfibra",
+    "descripcion": "Suave y absorbente, ideal para secar vajilla, proteger superficies o usar como base antideslizante en la cocina.",
+    "imagen": "assets/img/products/cocina/tapiz_microfibra.webp"
+  },
+  {
+    "id": 47,
+    "tipo": "cocina",
+    "nombre": "Tapones para botellas",
+    "descripcion": "Útiles y reutilizables, mantienen tus bebidas frescas por más tiempo y evitan derrames en botellas abiertas.",
+    "imagen": "assets/img/products/cocina/tapon_botellas.webp"
+  },
+  {
+    "id": 48,
+    "tipo": "cocina",
+    "nombre": "Tostador parrilla",
+    "descripcion": "Resistente y funcional, ideal para tostar pan o calentar alimentos directamente sobre la parrilla o brasas.",
+    "imagen": "assets/img/products/cocina/tostador_parrilla.webp"
+  },
+  {
+    "id": 49,
+    "tipo": "cocina",
+    "nombre": "Pack de shot 25 vasos plásticos (1.5oz)",
+    "descripcion": "Pequeños y prácticos, ideales para shots, degustaciones o servir salsas y aderezos en reuniones y eventos.",
+    "imagen": "assets/img/products/cocina/vasos_1.5oz.webp"
+  },
+  {
+    "id": 50,
+    "tipo": "cocina",
+    "nombre": "Pack de shot 12 vasos plásticos (3oz)",
+    "descripcion": "Compactos y versátiles, perfectos para shots, postres, degustaciones o porciones individuales de bebidas.",
+    "imagen": "assets/img/products/cocina/vasos_3oz.webp"
+  },
+  {
+    "id": 51,
+    "tipo": "cocina",
+    "nombre": "Pack de shot 12 vasos plásticos (7oz)",
+    "descripcion": "Tamaño ideal para bebidas frías, jugos o refrescos, perfectos para reuniones, picnics o uso diario.",
+    "imagen": "assets/img/products/cocina/vasos_7oz.webp"
+  },
+  {
+    "id": 52,
+    "tipo": "jardin",
+    "nombre": "Guantes de tela para jardín",
+    "descripcion": "Cómodos y resistentes, protegen tus manos mientras realizás tareas de jardinería, poda o trasplante.",
+    "imagen": "assets/img/products/jardin/guantes_jardin.webp"
+  },
+  {
+    "id": 53,
+    "tipo": "jardin",
+    "nombre": "Maceta soplada de plástico (todas las medidas)",
+    "descripcion": "Ligeros y duraderos, ideales para semilleros, trasplantes o cultivo de pequeñas plantas y flores.",
+    "imagen": "assets/img/products/jardin/IMG_20250614_113433.webp"
+  },
+  {
+    "id": 54,
+    "tipo": "jardin",
+    "nombre": "Maceta de jardín extra grande",
+    "descripcion": "Espaciosa y resistente, perfecta para plantas de gran tamaño, árboles jóvenes o composiciones decorativas en exteriores.",
+    "imagen": "assets/img/products/jardin/maceta_1.webp"
+  },
+  {
+    "id": 55,
+    "tipo": "jardin",
+    "nombre": "Maceta de jardín grande",
+    "descripcion": "Robusta y decorativa, ideal para arbustos, plantas medianas o arreglos florales en patios y balcones.",
+    "imagen": "assets/img/products/jardin/maceta_2.webp"
+  },
+  {
+    "id": 56,
+    "tipo": "jardin",
+    "nombre": "Maceta de jardín mediana",
+    "descripcion": "Versátil y funcional, perfecta para plantas de interior o exterior de tamaño medio, con buen drenaje y diseño práctico.",
+    "imagen": "assets/img/products/jardin/maceta_3.webp"
+  },
+  {
+    "id": 57,
+    "tipo": "jardin",
+    "nombre": "Maceta de jardín pequeña",
+    "descripcion": "Compacta y práctica, ideal para suculentas, hierbas aromáticas o plantas pequeñas en espacios reducidos.",
+    "imagen": "assets/img/products/jardin/maceta_4.webp"
+  },
+  {
+    "id": 58,
+    "tipo": "jardin",
+    "nombre": "Maceta de jardín pequeña (decorativa)",
+    "descripcion": "Estética y funcional, diseñada para realzar espacios pequeños con plantas decorativas y detalles encantadores.",
+    "imagen": "assets/img/products/jardin/maceta_5.webp"
+  },
+  {
+    "id": 59,
+    "tipo": "jardin",
+    "nombre": "Macetines de plástico (decorativos)",
+    "descripcion": "Coloridos y resistentes, perfectos para darle un toque decorativo y alegre a tus plantas y ambientes.",
+    "imagen": "assets/img/products/jardin/maceta_6.webp"
+  },
+  {
+    "id": 60,
+    "tipo": "jardin",
+    "nombre": "Maceta cuadrada mediana",
+    "descripcion": "De diseño moderno y práctico, ideal para plantas medianas, con buen drenaje y fácil ubicación en cualquier espacio.",
+    "imagen": "assets/img/products/jardin/maceta_cuadrada_1.webp"
+  },
+  {
+    "id": 61,
+    "tipo": "jardin",
+    "nombre": "Pala pequeña de jardinería",
+    "descripcion": "Compacta y resistente, perfecta para trasplantes, sembrar y trabajar en espacios reducidos del jardín.",
+    "imagen": "assets/img/products/jardin/pala_chica_1.webp"
+  },
+  {
+    "id": 62,
+    "tipo": "tuppers",
+    "nombre": "Tupper hermetico pequeño de plástico",
+    "descripcion": "Práctico y seguro, ideal para conservar alimentos frescos, transportar comidas o almacenar ingredientes sin derrames.",
+    "imagen_detalle": "assets/img/products/jardin/tupper_hermetico_1.jpg",
+    "imagen": "assets/img/products/Tuppers/tupper_hermetico_1.webp"
+  },
+  {
+    "id": 63,
+    "tipo": "tuppers",
+    "nombre": "Tupper hermetico mediano hondo de plástico",
+    "descripcion": "Práctico y seguro, ideal para conservar alimentos frescos, transportar comidas o almacenar ingredientes sin derrames.",
+    "imagen_detalle": "assets/img/products/jardin/tupper_hermetico_1.jpg",
+    "imagen": "assets/img/products/Tuppers/tupper_hermetico_2.webp"
+  },
+  {
+    "id": 64,
+    "tipo": "tuppers",
+    "nombre": "Tupper hermetico mediano de plástico",
+    "descripcion": "Práctico y seguro, ideal para conservar alimentos frescos, transportar comidas o almacenar ingredientes sin derrames.",
+    "imagen_detalle": "assets/img/products/jardin/tupper_hermetico_3.jpg",
+    "imagen": "assets/img/products/Tuppers/tupper_hermetico_3.webp"
+  },
+  {
+    "id": 65,
+    "tipo": "tuppers",
+    "nombre": "Tupper hermetico grande de plástico",
+    "descripcion": "Práctico y seguro, ideal para conservar alimentos frescos, transportar comidas o almacenar ingredientes sin derrames.",
+    "imagen_detalle": "assets/img/products/jardin/tupper_hermetico_4.jpg",
+    "imagen": "assets/img/products/Tuppers/tupper_hermetico_4.webp"
+  }
 ]

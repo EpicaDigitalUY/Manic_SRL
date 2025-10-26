@@ -459,6 +459,9 @@ nav ul li a:hover {
     margin-top: 7px;
 }
 
+
+
+
 /* === RESPONSIVE ADJUSTMENTS === */
 @media (max-width: 480px) {
     .whatsapp-float {
@@ -645,14 +648,27 @@ nav ul li a:hover {
     gap: 1rem;
 }
 
-.volver {
+.volver, #info{
     display: inline-block;
-    margin-top: 2rem;
+    margin-top: .5remrem;
     padding: 0.5rem 1rem;
     background: #333;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+}
+
+/* producto.html */
+#info {
+    margin-top: 0;
+    background-color: #25D366;
+    color: #333;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* Vista en pantallas grandes */

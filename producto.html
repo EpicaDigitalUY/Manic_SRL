@@ -9,7 +9,7 @@
 
 <body>
     <nav>
-        <div class="logo"><a href="#inicio">Manic S.R.L.</a></div>
+        <div class="logo"><a href="index.html">Manic S.R.L.</a></div>
 
         <div class="hamburger" onclick="toggleMenu()">
             <span></span>
@@ -33,6 +33,7 @@
             <p id="descripcionProducto"></p>
             <span id="precioProducto" style="font-weight: bold; font-size: 1.2rem;"></span>
             <br>
+            <a id="info" target="_blank" rel="noopener noreferrer">Consultar</a>
             <a href="index.html#catalogo" class="volver">← Volver al catálogo</a>
         </div>
     </div>
@@ -58,17 +59,17 @@
             <div class="footer-column">
                 <h3>Contacto</h3>
                 <p><strong>Dirección:</strong> Av. Dr. Juan Bautista Alberdi 6190, 11500, Departamento de Montevideo</p>
-                <p><strong>Teléfono:</strong> +598 123 456 789</p>
-                <p><strong>Email:</strong> contacto@manic.com</p>
+                <p><strong>Teléfono:</strong> +598 092 505 088</p>
+                <p><strong>instagram:</strong> <a href="https://www.instagram.com/manicsrl/">@manicsrl</a></p>
             </div>
 
-            <div class="footer-column">
+            <!-- <div class="footer-column">
                 <h3>Escribinos</h3>
                 <div class="social-icons">
                     <a href="#"><i class='bx bxl-whatsapp'></i></a>
                     <a href="#"><i class='bx bxl-instagram'></i></a>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="footer-bottom">
             <p>&copy; 2025 Manic S.R.L. Todos los derechos reservados. | Sitio creado por Underlight.</p>
@@ -76,7 +77,8 @@
     </footer>
     <script>
         // Obtener el ID del producto desde la URL (#id)
-        const hash = window.location.hash.replace(/^#\/?/, ''); // elimina "#" o "#/"
+        const hash = window.location.hash.replace(/^#\/?/, ''); 
+        const a = document.getElementById('info');
 
         fetch('/json/data.json')
             .then(response => response.json())
@@ -88,6 +90,8 @@
                     document.getElementById('nombreProducto').textContent = producto.nombre;
                     document.getElementById('descripcionProducto').textContent = producto.descripcion;
                     document.getElementById('precioProducto').textContent = producto.precio;
+                    a.setAttribute('href', `https://api.whatsapp.com/send/?phone=59892505088&text=${encodeURIComponent(`Hola Manic SRL. Me interesa tener mas información acerca del producto llamado ${producto.nombre}`)}&type=phone_number&app_absent=0`)
+
                 } else {
                     document.querySelector('.detalle-container').innerHTML = `
                         <p>No se encontró el producto.</p>

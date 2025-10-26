@@ -1,4 +1,4 @@
-// Carrusel automático
+// Carrusel automatico
 const track = document.querySelector('.slider-track');
 const slides = document.querySelectorAll('.slider-track img');
 const prevBtn = document.querySelector('.prev');
@@ -13,7 +13,7 @@ function updateSlider() {
 function nextSlide() {
   currentIndex = (currentIndex + 1) % slides.length;
   updateSlider();
-}
+  }
 
 function prevSlide() {
   currentIndex = (currentIndex - 1 + slides.length) % slides.length;
@@ -23,7 +23,7 @@ function prevSlide() {
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
-// Slide automático cada 5 segundos
+// Slide automático cada 5 segundos.
 setInterval(nextSlide, 5000);
 
 
@@ -44,7 +44,7 @@ function toggleMenu() {
 }
 
 function verDetalleProducto(nombre, descripcion, imagen, precio) {
-    const producto = { nombre, descripcion, imagen, precio };
+  const producto = { nombre, descripcion, imagen, precio };
     localStorage.setItem('productoSeleccionado', JSON.stringify(producto));
     window.location.href = 'producto.html';
 }
@@ -61,7 +61,7 @@ fetch('/json/data.json')
   .then(data => {
     if (data.length === 0) {
       prodContainer.innerHTML = "No hay productos en la tienda"
-    } else {
+} else {
       data.forEach(prod => {
         const div = document.createElement('div');
         div.classList.add('producto');
@@ -73,7 +73,7 @@ fetch('/json/data.json')
 
         prodContainer.append(div)
 
-        div.addEventListener('click', () => getProductPage(prod.id, prod.nombre))
+        div.addEventListener('click', () => getProductPage(prod.id))
       });
     }
     
