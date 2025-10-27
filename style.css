@@ -574,6 +574,7 @@ h2 {
 }
 
 /* Hasta 768px */
+
 @media (max-width: 768px) {
     nav ul {
         display: none;
@@ -642,10 +643,25 @@ h2 {
     .footer-container {
         grid-template-columns: 1fr 1fr;
     }
-}
+
+} 
 
 /* Hasta 480px */
 @media (max-width: 480px) {
+    nav {
+        height: 4rem;
+    }
+    .logo {
+        height: 3.7rem;
+        & a {
+            font-size: 2rem;
+            & img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
     .slider {
         height: 200px;
         margin-top: 100px;
@@ -675,7 +691,20 @@ h2 {
 
     .footer-container {
         grid-template-columns: 1fr;
-    }
+    } 
+
+    /* Seccion de producto.html */
+
+     .detalle-container {
+        width: 80%;
+        & h2 {
+            margin: 0;
+            font-size: 1.6rem;
+        } 
+    } 
+
+
+    
 }
 
 .detalle-container {
@@ -691,7 +720,6 @@ h2 {
 
 .detalle-imagen {
     width: 100%;
-    max-width: 400px;
     border-radius: 10px;
     border: solid 2px #0000001c;
 }
@@ -759,4 +787,4 @@ a {
         flex: 1;
         padding-left: 2rem;
     }
-}
+} 
